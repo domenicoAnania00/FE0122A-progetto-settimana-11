@@ -1,0 +1,126 @@
+<div *ngIf="empty" class="text-center m-auto">
+  <h1 class="display-2">Il carrello è vuoto</h1>
+  <button type="button" (click)="backHome2()" class="btn btn-primary mt-5">
+    Torna a visualizzare i prodotti
+  </button>
+</div>
+
+<div *ngIf="!empty" class="text-center">
+  <div class="d-flex justify-content-evenly mt-5">
+    <h2 class="display-6">Articoli</h2>
+    <button type="button" class="btn btn-warning" (click)="backHome2()">
+      Torna ai prodotti
+    </button>
+    <button type="button" (click)="elimina()" class="btn btn-danger">
+      Svuota carrello
+    </button>
+  </div>
+  <table class="table mt-5 container text-light">
+    <thead>
+      <tr class="text-muted">
+        <th scope="col">#id</th>
+        <th scope="col">Prodotto selezionato</th>
+        <th scope="col">Prezzo</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let cart of carts" class="fs-5">
+        <td scope="row">{{ cart.id }}</td>
+        <td>{{ cart.name }}</td>
+        <td class="bg-success text-light">€ {{ cart.price }}</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td class="fs-4">Totale</td>
+        <td></td>
+        <td class="bg-danger text-light fs-4 fw-bold">€ {{ total }}</td>
+      </tr>
+    </tfoot>
+  </table>
+
+  <div class="text-center mt-5">
+    <h2 class="mt-5 display-6">Completa ordine</h2>
+  </div>
+
+  <form class="container w-50 mt-3" [formGroup]="form" (ngSubmit)="onSubmit()">
+    <div formGroupName="userInfo">
+      <div class="mb-3">
+        <label for="username" class="form-label">Nome</label>
+        <input
+          type="text"
+          formControlName="username"
+          class="form-control"
+          id="username"
+        />
+        <span
+          *ngIf="
+            this.form.get('userInfo.username')?.invalid &&
+            this.form.get('userInfo.username')?.touched
+          "
+          class="mt-2 d-flex justify-content-start text-muted"
+          >*Campo "Nome" non valido. Perfavore riprova...
+        </span>
+      </div>
+      <div class="form-group mb-3">
+        <label for="email" class="form-label">Email</label>
+        <input
+          type="email"
+          formControlName="email"
+          class="form-control"
+          id="email"
+        />
+        <span
+          *ngIf="
+            this.form.get('userInfo.email')?.invalid &&
+            this.form.get('userInfo.email')?.touched
+          "
+          class="mt-2 d-flex justify-content-start text-muted"
+          >*Campo "Email" non valido. Perfavore riprova...
+        </span>
+      </div>
+      <div class="form-group mb-3">
+        <label for="password" class="form-label">Password</label>
+        <input
+          type="password"
+          formControlName="password"
+          class="form-control"
+          id="password"
+        />
+        <span
+          *ngIf="this.form.get('userInfo.password')?.invalid"
+          class="mt-2 d-flex justify-content-start text-muted"
+          >*La password deve essere lunga: max 20 caratteri e min 8.
+        </span>
+      </div>
+    </div>
+    <div class="radio" class="mt-5" *ngFor="let gender of genders">
+      <label></label>
+      <input type="radio" formControlName="genders" [value]="gender" />
+      {{ gender }}
+    </div>
+    <div class="form-group my-3">
+      <h4 class="display-5 d-flex justify-content-start">Commenti</h4>
+      <textarea
+        class="form-control"
+        formControlName="textarea"
+        id="textarea"
+        style="height: 150px"
+      ></textarea>
+
+      <span
+        *ngIf="this.form.get('textarea')?.invalid"
+        class="mt-2 d-flex justify-content-start text-muted"
+        >*Hai superato la lunghezza consentita.
+      </span>
+    </div>
+
+    <button
+      type="submit"
+      [disabled]="form.invalid"
+      class="btn btn-success my-4"
+    >
+      Invia
+    </button>
+  </form>
+</div>

@@ -1,0 +1,174 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Birra Original Graphic Novel",
+      "price": 2.47,
+      "description": "Abbiamo pensato di svelarvi il mondo cyberpunk delle GIRLS raccontandovi la loro storia con un fumetto. Scoprirete chi sono e come si sono conosciute, attraverso le 48 vignette originali che abbiamo disegnato per voi! Su ogni lattina di Original Graphic Novel avrete la possibilità di trovare un episodio diverso: abbiamo numerato le etichette ma le stamperemo in modo casuale. Una trovata originale per un prodotto da collezione!",
+      "tipologia": "IPA",
+      "produttore": "Birrificio Della Granda",
+      "paese": "Italia",
+      "gradazione": "3,8%",
+      "fermentazione": "Alta",
+      "formato": "cl 33",
+      "img":"https://www.casillowine.com/9050-thickbox_default/birra-original-graphic-novel-della-granda-in-lattina.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Birra Android DIY Amber Lager",
+      "price": 2.38,
+      "description": "Birra ambrata dal gusto maltato e dal profumo tostato, ideale con i secondi. DIY è un androide che si è auto costruito a partire da una matrice meccanica unita a un processore. Gettato in una discarica per un malfunzionamento, il pannello fotovoltaico ha continuato ad assorbire energia solare mantenendolo attivo, nella sua solitudine e nel confronto con gli altri relitti ha sviluppato autocoscienza e la voglia di esistere…",
+      "tipologia": "Amber lager",
+      "produttore": "Birrificio Della Granda",
+      "paese": "Italia",
+      "gradazione": "6,5%",
+      "fermentazione": "Alta",
+      "formato": "cl 33",
+      "img":"https://www.casillowine.com/9261-thickbox_default/birra-android-diy-amber-lager-della-granda-in-lattina.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Birra Alter Native",
+      "price": 3.08,
+      "description": "Impreziosita con pesche coltivate a pochi chilometri dal nostro birrificio per il pieno controllo della qualità, questa birra è un inno all’unicità, alla passione e alla capacità di uscire fuori dagli schemi. È alternativa, è di carattere, è nata unica",
+      "tipologia": "Fruit and Juicy IPA",
+      "produttore": "Birrificio Della Granda",
+      "paese": "Italia",
+      "gradazione": "6,7%",
+      "fermentazione": "Alta",
+      "formato": "cl 33",
+      "img":"https://www.casillowine.com/6760-thickbox_default/birra-alter-native-della-granda-in-lattina.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Birra Android Nemo-2 Strong Lager",
+      "price": 3.08,
+      "description": "Birra chiara e intensa, ma dal gusto delicato ed equilibrato. Pensata per gli aperitivi e i primi. Nemo-2 è un ex androide da guerra. Sono stati tutti smantellati a causa di un difetto di programmazione che li rendeva imprevedibili. Kløe, ne ha ricostruito uno ad uso personale, e si rivelerà molto utile",
+      "tipologia": "Strong Lager",
+      "produttore": "Birrificio Della Granda",
+      "paese": "Italia",
+      "gradazione": "8%",
+      "fermentazione": "Alta",
+      "formato": "cl 33",
+      "img":"https://www.casillowine.com/9262-thickbox_default/birra-android-nemo-2-strong-lager-della-granda-in-lattina.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Birra Barley Wine Limited Edition",
+      "price": 4.99,
+      "description": "I profumi di vaniglia e zucchero di canna si aggiungono alle note vinose rilasciate dalla lenta ossidazione dovuta alla maturazione in legno. In bocca il corpo è morbido e rotondo, con una nota di dolcezza. L’elevato grado alcolico aggiunge un carattere liquoroso che rende giustizia al termine storico di Barley Wine. Letteralmente vin d’orzo",
+      "tipologia": "Barley Wine",
+      "produttore": "Birrificio Della Granda",
+      "paese": "Italia",
+      "gradazione": "12%",
+      "fermentazione": "Alta",
+      "formato": "cl 33",
+      "img":"https://www.casillowine.com/8175-thickbox_default/birra-barley-wine-della-granda-in-lattina-limited-edition.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Birra Kei Os",
+      "price": 2.72,
+      "description": "Kei Os è una IPA audace e che non teme di esser sopra le righe. È conscia della sua unicità e questo la rende ancor più affascinante. Con il suo sapore ti getterà letteralmente nel caos! Kei Os è la nostra IPA! L’acronimo IPA sta per India Pale Ale ed è una rivisitazione moderna delle birre che l’impero britannico produceva per le proprie colonie: fruttata, energica, fresca",
+      "tipologia": "IPA",
+      "produttore": "Birrificio Della Granda",
+      "paese": "Italia",
+      "gradazione": "5%",
+      "fermentazione": "Alta",
+      "formato": "cl 33",
+      "img":"https://www.casillowine.com/6763-thickbox_default/birra-kei-os-della-granda-in-lattina.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Birra No Mask",
+      "price": 3.29,
+      "description": "No Mask è una birra di carattere attraverso la quale vogliamo celebrare l’autenticità del movimento dei birrifici artigianali. Senza maschere, lavoriamo insieme per produrre birre che siano espressione della nostra filosofia e passione!",
+      "tipologia": "Double IPA",
+      "produttore": "Birrificio Della Granda",
+      "paese": "Italia",
+      "gradazione": "9%",
+      "fermentazione": "Alta",
+      "formato": "cl 33",
+      "img":"https://www.casillowine.com/6765-thickbox_default/birra-no-mask-della-granda-in-lattina.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Birra Kei Os",
+      "price": 2.38,
+      "description": "Birra dall’intenso profumo agrumato, resinoso e dal gusto deciso, da provare con la pizza e le grigliate. Skrew è l’androide di Flǫǫke, è munito di ogni tipo di attrezzo utile a scassinare, smontare, sezionare, craccare e..torturare",
+      "tipologia": "IPA",
+      "produttore": "Birrificio Della Granda",
+      "paese": "Italia",
+      "gradazione": "5%",
+      "fermentazione": "Alta",
+      "formato": "cl 33",
+      "img":"https://www.casillowine.com/9260-thickbox_default/birra-android-ipa-skrew-della-granda-in-lattina.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Birra Kloe",
+      "price": 2.38,
+      "description": "Si ispira alle birre chiare prodotte a Colonia. Pur essendo una birra a alta fermentazione presenta un profilo aromatico e gustativo simile alle lager. Kløe è bionda e sbarazzina. Perfetta per due risate alla fine di una giornata. Solo apparentemente semplice, mantiene ciò che promette: però occhio a non farla arrabbiare!",
+      "tipologia": "IPA",
+      "produttore": "Birrificio Della Granda",
+      "paese": "Italia",
+      "gradazione": "5%",
+      "fermentazione": "Alta",
+      "formato": "cl 33",
+      "img":"https://www.casillowine.com/6766-thickbox_default/birra-kloe-della-granda-in-lattina.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Birra Dangerous",
+      "price": 3.29,
+      "description": "Dangerous è una Imperial Russian Stout. Abbiamo deciso di rappresentare questa birra attraverso un’animale assolutamente affascinante: la Volverina. Esatto, l’animale che ha dato ispirazione per il celebre personaggio dei fumetti. Così come la Volverina, questa birra è indipendente e unica",
+      "tipologia": "Imperial Russian Stout",
+      "produttore": "Birrificio Della Granda",
+      "paese": "Italia",
+      "gradazione": "10%",
+      "fermentazione": "Alta",
+      "formato": "cl 33",
+      "img":"https://www.casillowine.com/6758-thickbox_default/birra-dangerous-della-granda-in-lattina.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Birra Persi Pien",
+      "price": 3.40,
+      "description": "Persi Pien (ovvero Pesche Ripiene) è un dolce tipico della tradizione contadina piemontese a cui questa birra scura ed intensa si ispira. Aroma: note di pesche, cioccolato e amaretto. Corpo morbido e pieno",
+      "tipologia": "Pastry stout",
+      "produttore": "Birrificio Della Granda",
+      "paese": "Italia",
+      "gradazione": "10%",
+      "fermentazione": "Alta",
+      "formato": "cl 33",
+      "img":"https://www.casillowine.com/8178-thickbox_default/birra-persi-pien-della-granda-in-lattina-limited-edition.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Birra Reveille IPA",
+      "price": 2.99,
+      "description": "Reveille significa Sveglia! Con questa IPA vogliamo anche noi suonare la carica al movimento della birra artigianale per parlare chiaro ai nostri appassionati, per fare squadra, per tutelare insieme l’intrigante diversità delle esperienze sensoriali date dalle birre artigianali. Una IPA d’avanguardia, meno maltata delle West Coast e più beverina e scorrevole e con un aroma ancora più intenso",
+      "tipologia": "IPA",
+      "produttore": "Birrificio Della Granda",
+      "paese": "Italia",
+      "gradazione": "6,5%",
+      "fermentazione": "Alta",
+      "formato": "cl 33",
+      "img":"https://www.casillowine.com/6755-thickbox_default/birra-reveille-ipa-della-granda-in-lattina.jpg"
+    }
+  ],
+  "prices": [
+    {
+      "type": "1-Giorno",
+      "price": 25.99
+    },
+    {
+      "type": "2-Giorni",
+      "price": 9.99
+    },
+    {
+      "type": "5-Giorni",
+      "price": 2.99
+    }
+  ]
+}

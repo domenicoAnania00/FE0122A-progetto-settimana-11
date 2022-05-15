@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+  background-color: black !important;
+  color: whitesmoke !important;
+}
+.card-body{
+  background-image: linear-gradient(169deg, rgba(194,109,23,1) 14%, rgba(121,9,90,1) 45%, rgba(12,217,166,1) 100%) !important;
+}
+.card-footer{
+  background-color: rgba(19, 71, 193, 0.526) !important;
+}
+@import 'bootstrap/scss/bootstrap'

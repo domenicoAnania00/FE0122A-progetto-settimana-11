@@ -1,0 +1,33 @@
+<div *ngIf="beer" class="text-center container">
+  <h1 class="display-4 my-5">{{ beer.name }}</h1>
+  <img src="{{ beer.img }}" />
+  <ul class="list-group list-group-flush w-75 m-auto my-5">
+    <li class="list-group-item">
+      <span class="fw-bold">Produttore</span>: {{ beer.produttore }}
+    </li>
+    <li class="list-group-item">
+      <span class="fw-bold">Paese</span>: {{ beer.paese }}
+    </li>
+    <li class="list-group-item">
+      <span class="fw-bold">Gradazione</span>: {{ beer.gradazione }}
+    </li>
+    <li class="list-group-item">
+      <span class="fw-bold">Fermentazione</span>: {{ beer.fermentazione }}
+    </li>
+    <li class="list-group-item">
+      <span class="fw-bold">Formato</span>: {{ beer.formato }}
+    </li>
+  </ul>
+  <p class="mb-5 fw-bold fs-5">
+    Prezzo: <span class="text-success">€ {{ beer.price }}</span>
+  </p>
+  <p class="w-75 m-auto fs-5">{{ beer.description }}</p>
+  <div class="mt-5 d-flex flex-column align-items-center">
+    <button type="button" (click)="aggiungiCarrello()" class="btn btn-success">
+      Aggiungi al carrello
+    </button>
+  </div>
+  <button type="button" (click)="backHome()" class="btn btn-warning my-3">
+    Torna a visualizzare i prodotti
+  </button>
+</div>

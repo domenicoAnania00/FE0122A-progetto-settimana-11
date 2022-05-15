@@ -1,0 +1,26 @@
+<div class="container mt-3">
+  <div *ngIf="show" class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col" *ngFor="let product of products">
+      <div class="card h-100">
+        <img src="{{ product.img }}" class="card-img-top" />
+        <div class="card-body">
+          <h5 class="card-title text-center text-dark">{{ product.name }}</h5>
+          <div class="d-flex flex-column align-items-center mt-4 text-dark">
+            <p>
+              Formato: <span class="format fw-bold">{{ product.formato }}</span>
+            </p>
+            <p>
+              Gradazione:
+              <span class="grad fw-bold">{{ product.gradazione }}</span>
+            </p>
+          </div>
+        </div>
+        <div class="card-footer text-center">
+          <a [routerLink]="['/dettagli', product.id]" class="link-dark fw-bold"
+            >View details</a
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
