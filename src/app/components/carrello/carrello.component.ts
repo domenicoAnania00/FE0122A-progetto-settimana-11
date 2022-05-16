@@ -38,6 +38,13 @@ export class CarrelloComponent implements OnInit {
     this.total.toFixed(2);
   }
 
+  //funzione per evitare che l'utente inserisca solo spazi vuoti all'interno del nome
+  public noWhitespaceValidator(control: FormControl) {
+    const isWhitespace = (control.value || '').trim().length === 0;
+    const isValid = !isWhitespace;
+    return isValid ? null : { whitespace: true };
+  }
+
   ngOnInit(): void {
     this.carts = this.carrelloSrv.carrello;
     if (this.carts.length == 0) {
@@ -47,7 +54,10 @@ export class CarrelloComponent implements OnInit {
       this.totale();
       this.form = this.fb.group({
         userInfo: this.fb.group({
-          username: this.fb.control(null, Validators.required),
+          username: this.fb.control(null, [
+            Validators.required,
+            this.noWhitespaceValidator,
+          ]),
           email: this.fb.control(null, [
             Validators.email,
             Validators.required,
