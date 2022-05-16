@@ -55,7 +55,7 @@
     {
       "id": 5,
       "name": "Birra Barley Wine Limited Edition",
-      "price": 4.99,
+      "price": 4.95,
       "description": "I profumi di vaniglia e zucchero di canna si aggiungono alle note vinose rilasciate dalla lenta ossidazione dovuta alla maturazione in legno. In bocca il corpo è morbido e rotondo, con una nota di dolcezza. L’elevato grado alcolico aggiunge un carattere liquoroso che rende giustizia al termine storico di Barley Wine. Letteralmente vin d’orzo",
       "tipologia": "Barley Wine",
       "produttore": "Birrificio Della Granda",
@@ -81,7 +81,7 @@
     {
       "id": 7,
       "name": "Birra No Mask",
-      "price": 3.29,
+      "price": 3.27,
       "description": "No Mask è una birra di carattere attraverso la quale vogliamo celebrare l’autenticità del movimento dei birrifici artigianali. Senza maschere, lavoriamo insieme per produrre birre che siano espressione della nostra filosofia e passione!",
       "tipologia": "Double IPA",
       "produttore": "Birrificio Della Granda",
@@ -93,7 +93,7 @@
     },
     {
       "id": 8,
-      "name": "Birra Skrew",
+      "name": "Birra Skrew IPA",
       "price": 2.38,
       "description": "Birra dall’intenso profumo agrumato, resinoso e dal gusto deciso, da provare con la pizza e le grigliate. Skrew è l’androide di Flǫǫke, è munito di ogni tipo di attrezzo utile a scassinare, smontare, sezionare, craccare e..torturare",
       "tipologia": "IPA",
@@ -120,7 +120,7 @@
     {
       "id": 10,
       "name": "Birra Dangerous",
-      "price": 3.29,
+      "price": 3.27,
       "description": "Dangerous è una Imperial Russian Stout. Abbiamo deciso di rappresentare questa birra attraverso un’animale assolutamente affascinante: la Volverina. Esatto, l’animale che ha dato ispirazione per il celebre personaggio dei fumetti. Così come la Volverina, questa birra è indipendente e unica",
       "tipologia": "Imperial Russian Stout",
       "produttore": "Birrificio Della Granda",
@@ -146,7 +146,7 @@
     {
       "id": 12,
       "name": "Birra Reveille IPA",
-      "price": 2.99,
+      "price": 2.91,
       "description": "Reveille significa Sveglia! Con questa IPA vogliamo anche noi suonare la carica al movimento della birra artigianale per parlare chiaro ai nostri appassionati, per fare squadra, per tutelare insieme l’intrigante diversità delle esperienze sensoriali date dalle birre artigianali. Una IPA d’avanguardia, meno maltata delle West Coast e più beverina e scorrevole e con un aroma ancora più intenso",
       "tipologia": "IPA",
       "produttore": "Birrificio Della Granda",
