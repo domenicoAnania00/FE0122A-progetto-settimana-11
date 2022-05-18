@@ -26,25 +26,6 @@ export class CarrelloComponent implements OnInit {
     private carrelloSrv: GeneralService,
     private fb: FormBuilder
   ) {}
-
-  backHome2() {
-    this.router.navigate(['/home']);
-  }
-
-  totale() {
-    for (let i = 0; i < this.carts.length; i++) {
-      this.total += this.carts[i].price;
-    }
-    this.total.toFixed(2);
-  }
-
-  //funzione per evitare che l'utente inserisca solo spazi vuoti all'interno del nome
-  public noWhitespaceValidator(control: FormControl) {
-    const isWhitespace = (control.value || '').trim().length === 0;
-    const isValid = !isWhitespace;
-    return isValid ? null : { whitespace: true };
-  }
-
   ngOnInit(): void {
     this.carts = this.carrelloSrv.carrello;
     if (this.carts.length == 0) {
@@ -77,6 +58,25 @@ export class CarrelloComponent implements OnInit {
       });
     }
   }
+
+  backHome2() {
+    this.router.navigate(['/home']);
+  }
+
+  totale() {
+    for (let i = 0; i < this.carts.length; i++) {
+      this.total += this.carts[i].price;
+    }
+    this.total.toFixed(2);
+  }
+
+  //funzione per evitare che l'utente inserisca solo spazi vuoti all'interno del nome
+  public noWhitespaceValidator(control: FormControl) {
+    const isWhitespace = (control.value || '').trim().length === 0;
+    const isValid = !isWhitespace;
+    return isValid ? null : { whitespace: true };
+  }
+
   elimina() {
     this.carts = this.carrelloSrv.carrello.splice(
       0,
